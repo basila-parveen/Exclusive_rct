@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/Exclusive_rct/static/css/main.55cdcd2d.css",
+    "main.js": "/Exclusive_rct/static/js/main.bee66ea6.js",
+    "static/media/phone.png": "/Exclusive_rct/static/media/phone.f22f594a220f4e9adc42.png",
+    "static/media/image 63.png": "/Exclusive_rct/static/media/image 63.80fed66b0ee2e546efaf.png",
+    "static/media/Four Star.svg": "/Exclusive_rct/static/media/Four Star.072934364287f36f8396c4093c00d16c.svg",
+    "static/media/Vector (5).svg": "/Exclusive_rct/static/media/Vector (5).0a153f5b8adf45329beca1d42dda0da7.svg",
+    "static/media/Icon-secure.svg": "/Exclusive_rct/static/media/Icon-secure.bde9a0470cdd0ae3342c34c093a3ed52.svg",
+    "static/media/icon-delivery.svg": "/Exclusive_rct/static/media/icon-delivery.0dec29a3122e75030583ee62bf4b1d43.svg",
+    "static/media/icon-delivery (1).svg": "/Exclusive_rct/static/media/icon-delivery (1).1d7cd638d13311577c212097eb0235db.svg",
+    "index.html": "/Exclusive_rct/index.html",
+    "static/media/Icon-Customer service.svg": "/Exclusive_rct/static/media/Icon-Customer service.a1df3943c633d8b9cdf1afccdf4d82bc.svg",
+    "static/media/icon-instagram.svg": "/Exclusive_rct/static/media/icon-instagram.35af9a7746d339a78f1f428a964c6ab7.svg",
+    "static/media/cart.svg": "/Exclusive_rct/static/media/cart.4a1ebf29c403c9daf6184df00a35501e.svg",
+    "static/media/Icon-return.svg": "/Exclusive_rct/static/media/Icon-return.41212c040627e3fef788d50d909ba2bf.svg",
+    "static/media/Icon-Linkedin.svg": "/Exclusive_rct/static/media/Icon-Linkedin.b37bc40385b859d44e0e272e507a5606.svg",
+    "static/media/icon-copyright.svg": "/Exclusive_rct/static/media/icon-copyright.0bba657e65745ec9d16e610971df4c25.svg",
+    "static/media/search.svg": "/Exclusive_rct/static/media/search.7ea904ba2388602a9514e29180c91b63.svg",
+    "static/media/icon_send.svg": "/Exclusive_rct/static/media/icon_send.ed77c2480cf3178bc4f40faaa52c9a8a.svg",
+    "static/media/wishlist.svg": "/Exclusive_rct/static/media/wishlist.3e6cf96241e77527df463bead7754f02.svg",
+    "static/media/Icon-Facebook.svg": "/Exclusive_rct/static/media/Icon-Facebook.90636f60afb9f3e2e04d8c82e843c216.svg",
+    "static/media/arrow.svg": "/Exclusive_rct/static/media/arrow.94daeaf57b1c315d2c8df91398237554.svg",
+    "main.55cdcd2d.css.map": "/Exclusive_rct/static/css/main.55cdcd2d.css.map",
+    "main.bee66ea6.js.map": "/Exclusive_rct/static/js/main.bee66ea6.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.55cdcd2d.css",
+    "static/js/main.bee66ea6.js"
+  ]
+}
