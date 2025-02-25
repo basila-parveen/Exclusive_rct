@@ -1,0 +1,493 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+}
+head {
+  overflow-x: hidden;
+  font-family: "Poppins", sans-serif;
+}
+a {
+  color: #fff;
+}
+li {
+  list-style: none;
+}
+.header {
+  width: 100%;
+  min-height: 48px;
+}
+.navbar_first {
+  background-color: black;
+  color: #fff;
+  width: 100%;
+  min-height: 48px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.navbar_first_content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  position: absolute;
+  left: 400px;
+}
+.navfirst {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 6px;
+}
+.navsecond a {
+  display: flex;
+  align-items: center;
+  position: absolute;
+  right: -300px;
+  text-decoration: none;
+}
+.navfirst h5,
+.navsecond h5 {
+  font-family: "Poppins", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 21px;
+  color: #fafafa;
+}
+.logo {
+  margin-left: 100px;
+}
+.navfirst a {
+  font-family: "Poppins", sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 24px;
+  text-align: center;
+  text-decoration-line: underline;
+}
+.navbar_second {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-right: 100px;
+  margin-top: 50px;
+  flex-wrap: wrap;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.unordered_list1 {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  gap: 50px;
+}
+.first_list {
+  text-decoration: none;
+  border-bottom: 1px solid black;
+}
+.header_right {
+  display: flex;
+  gap: 1.5em;
+  align-items: center;
+}
+#check {
+  display: none;
+}
+.checkbtn #bars {
+  color: rgb(0, 0, 0);
+  font-size: 20px;
+  cursor: pointer;
+  display: none;
+  margin-left: 100px;
+}
+.search {
+  display: flex;
+  align-items: center;
+  background-color: #f5f5f5;
+  min-height: 38px;
+  max-width: 243px;
+  border: 0px;
+  justify-content: space-between;
+  border-radius: 4px;
+}
+
+.search span {
+  width: 60px;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.search span img {
+  width: 35%;
+  display: block;
+}
+
+.search .searched {
+  border: none;
+  outline: none;
+  padding-left: 10px;
+  background-color: #f5f5f5;
+  font-size: 0.75rem;
+  width: 100%;
+  font-weight: 400;
+  font-family: var(--poppins);
+}
+hr {
+  margin-top: 10px;
+  opacity: 30%;
+}
+
+.rightpage .wrapper2 {
+  display: flex;
+  gap: 10px;
+  margin-top: 90px;
+  margin-left: 95px;
+}
+.one {
+  opacity: 50%;
+}
+.container3_content_grid2 {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  grid-gap: 31px;
+  grid-row-gap: 60px;
+}
+
+.container3_contentbox1 {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  justify-content: space-between;
+  justify-items: auto;
+  align-items: center;
+  width: 100%;
+  border-bottom: 1px solid #f5f5f5;
+}
+.container3_items1 {
+  width: 270px;
+  height: 322px;
+  gap: 16px;
+  display: flex;
+  flex-direction: column;
+}
+.container3_first_item {
+  width: 270px;
+  height: 250px;
+  border-radius: 4px;
+  background: #f5f5f5;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.container3_first_item:hover .addcart {
+  display: block;
+  text-align: center;
+  align-content: center;
+}
+.box {
+  width: 399px;
+  height: 180px;
+  border-radius: 4px;
+  border-width: 1px;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid rgba(0, 0, 0, 0.5);
+}
+
+.icons {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  align-items: center;
+  row-gap: 10px;
+}
+.reviews {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.firstp {
+  font-family: "Poppins";
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  color: #db4444;
+}
+.old_price {
+  text-decoration: line-through;
+}
+.rating {
+  font-family: "Poppins";
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+}
+
+.offers {
+  width: 51px;
+  height: 26px;
+  gap: 10px;
+  border-radius: 4px;
+  position: absolute;
+  left: 10px;
+  top: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.offers p {
+  color: #fafafa;
+  font-family: "Poppins";
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 18px;
+}
+.discount {
+  width: 55px;
+  height: 26px;
+  border-radius: 4px;
+  background-color: #db4444;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fafafa;
+  position: absolute;
+  top: 15px;
+  left: 10px;
+}
+.discount p {
+  font-family: "Poppins";
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 18px;
+}
+.amount {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+.old_price {
+  font-family: "Poppins";
+  font-size: 14px;
+  font-weight: 500;
+  text-decoration: line-through;
+  opacity: 50%;
+}
+.two {
+  opacity: 60%;
+  font-weight: 400;
+  line-height: 21px;
+  color: #00ff66;
+}
+@media (max-width: 900px) {
+  .unordered_list1 {
+    display: none;
+    background-color: rgb(128, 128, 128, 0.5);
+    position: fixed;
+    text-align: center;
+    z-index: 1;
+    height: 120px;
+    width: 150px;
+    position: absolute;
+    display: block;
+    left: auto;
+    right: 100px;
+    top: 140px;
+    visibility: hidden;
+    transition: all 0.3s;
+    border-radius: 8px;
+  }
+  .checkbtn #bars {
+    display: block;
+    margin-left: 300px;
+  }
+  #check:checked ~ .unordered_list1 {
+    visibility: visible;
+  }
+}
+@media (max-width: 706px) {
+  .checkbtn #bars {
+    margin-left: -10px;
+    margin-top: 15px;
+  }
+}
+
+@media (max-width: 491px) {
+  .checkbtn #bars {
+    margin-top: 40px;
+  }
+}
+
+@media (max-width: 387px) {
+  .checkbtn #bars {
+    margin-right: -40px;
+    margin-top: 85px;
+  }
+}
+@media (max-width: 367px) {
+  .checkbtn #bars {
+    margin-top: 105px;
+    margin-right: -10px;
+  }
+}
+@media (max-width: 348px) {
+  .checkbtn #bars {
+    margin-top: 130px;
+  }
+}
+@media (max-width: 328px) {
+  .checkbtn #bars {
+    margin-top: 155px;
+  }
+}
+@media (max-width: 1346px) {
+  .main_image {
+    margin-left: -40px;
+  }
+}
+@media (max-width: 1305px) {
+  .main_image {
+    margin-left: 40px;
+  }
+  .image_contents {
+    margin-right: -200px;
+  }
+}
+@media (max-width: 850px) {
+  .gaming_img {
+    margin-left: -40px;
+  }
+}
+@media (max-width: 770px) {
+  .gaming_img {
+    right: 100px;
+  }
+}
+@media (max-width: 770px) {
+  .gaming_img {
+    right: 100px;
+  }
+}
+@media (max-width: 680px) {
+  .main_image {
+    max-height: 500px;
+    height: 100%;
+  }
+}
+
+@media (max-width: 600px) {
+  .gaming_img {
+    max-height: 220px;
+    height: 100%;
+    max-width: 250px;
+    width: 100%;
+    margin-top: -80px;
+    margin-left: -90px;
+  }
+  .main_image {
+    max-height: 300px;
+    height: 100%;
+  }
+  .rightpage {
+    gap: 5px;
+    font-weight: 350;
+    font-size: 11px;
+  }
+  .image_contents {
+    margin-left: 0px;
+  }
+}
+@media (max-width: 524px) {
+  .image_container {
+    margin-left: -50px;
+  }
+}
+@media (max-width: 500px) {
+  .gaming_img {
+    margin-left: -110px;
+  }
+  .image_contents {
+    padding: 0px !important;
+  }
+}
+
+@media (max-width: 475px) {
+  .image_container {
+    margin-left: -100px;
+  }
+}
+@media (max-width: 469px) {
+  .gaming_img {
+    margin-left: -120px;
+  }
+}
+
+@media (max-width: 455px) {
+  .gaming_para {
+    font-weight: 300;
+    font-size: 10px;
+  }
+  .rightpage {
+    margin-left: -90px;
+  }
+}
+
+@media screen and (max-width: 439px) {
+  .hr {
+    display: none;
+  }
+  .box {
+    width: 300px;
+  }
+  .second_return {
+    margin-top: 0px !important;
+  }
+
+  .checkbtn #bars {
+    margin-top: 60px;
+  }
+}
+@media (max-width: 410px) {
+  .gaming_para {
+    max-width: 300px;
+  }
+  br {
+    display: none;
+  }
+  .review_description {
+    gap: 0px !important;
+  }
+}
+
+@media screen and (max-width: 360px) {
+  .box {
+    padding: 0%;
+    margin-left: -10px;
+  }
+  .gaming_img {
+    max-height: 180px;
+    height: 100%;
+    max-width: 200px;
+    width: 100%;
+  }
+  .rightpage .wrapper2 {
+    gap: 0;
+  }
+}
+@media screen and (max-width: 345px) {
+  .box {
+    padding: 0%;
+    margin-left: -10px;
+  }
+}

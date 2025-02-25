@@ -1,0 +1,26 @@
+[
+  {
+    "p": "Phones",
+    "image": "/assets/images/cellphone.jpg"
+  },
+  {
+    "p": "Computers",
+    "image": "/assets/images/computer.jpg"
+  },
+  {
+    "p": "SmartWatch",
+    "image": "/assets/images/smartwatch.jpg"
+  },
+  {
+    "p": "HeadPhones",
+    "image": "/assets/images/headphone.jpg"
+  },
+  {
+    "p": "Gaming",
+    "image": "/assets/images/gamepad.jpg"
+  },
+  {
+    "p": "Camera",
+    "image": "/assets/images/camera.jpg"
+  }
+]
