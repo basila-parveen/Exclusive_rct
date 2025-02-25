@@ -1,6 +1,6 @@
 [
   {
-    "images": "./assets/images/BreedDog.jpg",
+    "images": "/assets/images/BreedDog.jpg",
     "wishlist_img1": "./assets/images/Fill-Heart.svg",
     "wishlist_img2": "./assets/images/Fill-Eye.svg",
     "review_h3": "Breed Dry Dog Food",
