@@ -1,11 +1,11 @@
 [
   {
     "images": "/assets/images/BreedDog.jpg",
-    "wishlist_img1": "./assets/images/Fill-Heart.svg",
-    "wishlist_img2": "./assets/images/Fill-Eye.svg",
+    "wishlist_img1": "/assets/images/Fill-Heart.svg",
+    "wishlist_img2": "/assets/images/Fill-Eye.svg",
     "review_h3": "Breed Dry Dog Food",
     "rating_p1": "$100",
-    "rating_img": "./assets/images/Three-Star.svg",
+    "rating_img": "/assets/images/Three-Star.svg",
     "rating_p2": "(35)"
   },
 
@@ -15,7 +15,7 @@
     "wishlist_img2": "/assets/images/Fill-Eye.svg",
     "review_h3": "CANON EOS DSLR Camera",
     "rating_p1": "$360",
-    "rating_img": "./assets/images/Four-Star.svg",
+    "rating_img": "/assets/images/Four-Star.svg",
     "rating_p2": "(95)"
   },
   {
@@ -33,7 +33,7 @@
     "wishlist_img2": "/assets/images/Fill-Eye.svg",
     "review_h3": "Curology Product Set ",
     "rating_p1": "$500",
-    "rating_img": "/assets/images/four-Star.svg",
+    "rating_img": "/assets/images/Four-Star.svg",
     "rating_p2": "(145)"
   },
   {
@@ -43,7 +43,7 @@
     "review_h3": "Kids Electric Car",
     "rating_p1": "$360",
     "isnew": true,
-    "rating_img": "/assets/images/four-Star.svg",
+    "rating_img": "/assets/images/Four-Star.svg",
     "rating_p2": "(65)",
     "colorvarient": [
       {
@@ -61,7 +61,7 @@
     "wishlist_img2": "/assets/images/Fill-Eye.svg",
     "review_h3": "Jr. Zoom Soccer Cleats",
     "rating_p1": "$1160",
-    "rating_img": "/assets/images/five-Star.svg",
+    "rating_img": "/assets/images/Five-Star.svg",
     "rating_p2": "(35)",
     "colorvarient": [
       {
