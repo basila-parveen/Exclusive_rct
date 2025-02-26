@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Exclusive_rct/static/css/main.55cdcd2d.css",
-    "main.js": "/Exclusive_rct/static/js/main.88b77f6d.js",
+    "main.js": "/Exclusive_rct/static/js/main.e5ac564b.js",
     "static/media/phone.png": "/Exclusive_rct/static/media/phone.f22f594a220f4e9adc42.png",
     "static/media/image 63.png": "/Exclusive_rct/static/media/image 63.80fed66b0ee2e546efaf.png",
     "static/media/Four Star.svg": "/Exclusive_rct/static/media/Four Star.072934364287f36f8396c4093c00d16c.svg",
@@ -22,10 +22,10 @@
     "static/media/Icon-Facebook.svg": "/Exclusive_rct/static/media/Icon-Facebook.90636f60afb9f3e2e04d8c82e843c216.svg",
     "static/media/arrow.svg": "/Exclusive_rct/static/media/arrow.94daeaf57b1c315d2c8df91398237554.svg",
     "main.55cdcd2d.css.map": "/Exclusive_rct/static/css/main.55cdcd2d.css.map",
-    "main.88b77f6d.js.map": "/Exclusive_rct/static/js/main.88b77f6d.js.map"
+    "main.e5ac564b.js.map": "/Exclusive_rct/static/js/main.e5ac564b.js.map"
   },
   "entrypoints": [
     "static/css/main.55cdcd2d.css",
-    "static/js/main.88b77f6d.js"
+    "static/js/main.e5ac564b.js"
   ]
 }
