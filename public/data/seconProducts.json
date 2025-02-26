@@ -15,7 +15,7 @@
     "wishlist_img2": "/assets/images/Fill-Eye.svg",
     "review_h3": "CANON EOS DSLR Camera",
     "rating_p1": "$360",
-    "rating_img": "/assets/images/four-Star.svg",
+    "rating_img": "/assets/images/Four-Star.svg",
     "rating_p2": "(95)"
   },
   {
@@ -24,7 +24,7 @@
     "wishlist_img2": "/assets/images/Fill-Eye.svg",
     "review_h3": "ASUS FHD Gaming Laptop",
     "rating_p1": "$700",
-    "rating_img": "/assets/images/five-Star.svg",
+    "rating_img": "/assets/images/Five-star.svg",
     "rating_p2": "(325)"
   },
   {
@@ -33,7 +33,7 @@
     "wishlist_img2": "/assets/images/Fill-Eye.svg",
     "review_h3": "Curology Product Set ",
     "rating_p1": "$500",
-    "rating_img": "/assets/images/four-Star.svg",
+    "rating_img": "/assets/images/Four-Star.svg",
     "rating_p2": "(145)"
   },
   {
@@ -43,7 +43,7 @@
     "review_h3": "Kids Electric Car",
     "rating_p1": "$360",
     "isnew": true,
-    "rating_img": "/assets/images/four-Star.svg",
+    "rating_img": "/assets/images/Five-star.svg",
     "rating_p2": "(65)",
     "colorvarient": [
       {
@@ -61,7 +61,7 @@
     "wishlist_img2": "/assets/images/Fill-Eye.svg",
     "review_h3": "Jr. Zoom Soccer Cleats",
     "rating_p1": "$1160",
-    "rating_img": "/assets/images/five-Star.svg",
+    "rating_img": "/assets/images/Five-star.svg",
     "rating_p2": "(35)",
     "colorvarient": [
       {
@@ -80,7 +80,7 @@
     "review_h3": "GP11 Shooter USB Gamepad",
     "rating_p1": "$660",
     "isnew": true,
-    "rating_img": "/assets/images/four-Half-Star.svg",
+    "rating_img": "/assets/images/FourHalfStar.svg",
     "rating_p2": "(55)",
     "colorvarient": [
       {
@@ -98,7 +98,7 @@
     "wishlist_img2": "/assets/images/Fill-Eye.svg",
     "review_h3": "Quilted Satin Jacket",
     "rating_p1": "$660",
-    "rating_img": "/assets/images/four-Half-Star.svg",
+    "rating_img": "/assets/images/FourHalfStar.svg",
     "rating_p2": "(55)",
     "colorvarient": [
       {

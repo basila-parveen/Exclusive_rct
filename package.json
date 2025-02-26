@@ -2,7 +2,7 @@
   "name": "exclusive",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://basila-parveen.github.io/ExclusiveReact",
+  "homepage": "https://basila-parveen.github.io/Exclusive_rct",
   "dependencies": {
     "@testing-library/jest-dom": "^6.6.3",
     "@testing-library/react": "^16.2.0",

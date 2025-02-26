@@ -11,9 +11,9 @@ import axios from "axios";
 
 function FirstScreen() {
   const { searchTerm } = useContext(SearchContext);
-  const [dataSearch, setDataSearch] = useState("");
   const [products, setProducts] = useState([]);
   const [secondproducts, setsecondProducts] = useState([]);
+  const [selectedCategory, setSelectedCategory] = useState("");
 
   useEffect(() => {
     axios
@@ -43,18 +43,20 @@ function FirstScreen() {
       (product.review_h3 || "").toLowerCase().includes(searchTerm.toLowerCase())
     );
   };
-  const showImage = (pdt) => {};
   const filteredProducts = filterProducts(products);
-  const filteredSecondProducts = filterProducts(secondproducts);
-  const clickMe = (Category) => {
-    setDataSearch(Category);
-  };
 
-  filteredSecondProducts.filter((data) =>
-    data.review_h3.toLowerCase().includes(dataSearch.toLowerCase())
+  const filteredSecondProducts = secondproducts.filter(
+    (product) =>
+      (product.review_h3 || "")
+        .toLowerCase()
+        .includes(searchTerm.toLowerCase()) &&
+      (selectedCategory
+        ? product.review_h3
+            .toLowerCase()
+            .includes(selectedCategory.toLowerCase())
+        : true)
   );
 
-  console.log("Filtered Second Products:", filteredSecondProducts);
   return (
     <div>
       <div className="wrapper2">
@@ -93,13 +95,12 @@ function FirstScreen() {
                 <div
                   className="container2_items"
                   key={index}
-                  onClick={() => clickMe(product.p)}
+                  onClick={() => setSelectedCategory(product.p)}
                 >
                   <img
                     src={`${process.env.PUBLIC_URL}/${product.image}`}
                     alt={product.p}
                     style={{ width: "100px", marginTop: "15px" }}
-                    onClick={showImage}
                   />
                   <p>{product.p}</p>
                 </div>
@@ -118,7 +119,7 @@ function FirstScreen() {
                     <div className="contentbox_container3" key={index}>
                       <div className="container3_content_box">
                         <img
-                          src={`${process.env.PUBLIC_URL}/assets/images/${product.images}`}
+                          src={`${process.env.PUBLIC_URL}${product.images}`}
                           alt="img1"
                         />
 
@@ -135,11 +136,11 @@ function FirstScreen() {
 
                         <div className="wishlist">
                           <img
-                            src={`${process.env.PUBLIC_URL}/${product.wishlist_img1}`}
+                            src={`${process.env.PUBLIC_URL}${product.wishlist_img1}`}
                             alt="heart"
                           />
                           <img
-                            src={`${process.env.PUBLIC_URL}/${product.wishlist_img2}`}
+                            src={`${process.env.PUBLIC_URL}${product.wishlist_img2}`}
                             alt="eye"
                           />
                         </div>
@@ -150,7 +151,7 @@ function FirstScreen() {
                         <div className="rating">
                           <p className="money">{product.rating_p1}</p>
                           <img
-                            src={`${process.env.PUBLIC_URL}/${product.rating_img}`}
+                            src={`${process.env.PUBLIC_URL}${product.rating_img}`}
                             alt="star"
                           />
                           <p className="ratingno">{product.rating_p2}</p>
