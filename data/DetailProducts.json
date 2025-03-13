@@ -4,7 +4,7 @@
     "review_h3": "Breed Dry Dog Food",
     "images": "/assets/images/BreedDog.jpg",
     "price": "$100",
-    "rating_img": "/assets/images/Three-star.svg",
+    "rating_img": "/assets/images/Three-Star.svg",
     "category": "PetFood",
     "review": "(35 Reviews)",
     "stock": "In stock"
@@ -14,7 +14,7 @@
     "review_h3": "CANON EOS DSLR Camera",
     "images": "/assets/images/Camera.png",
     "price": "$360",
-    "rating_img": "/assets/images/Four-star.svg",
+    "rating_img": "/assets/images/Four-Star.svg",
     "category": "Camera",
     "review": "(180 Reviews)",
     "stock": "In stock"
@@ -34,7 +34,7 @@
     "review_h3": "Curology Product Set",
     "images": "/assets/images/Cream.jpg",
     "price": "$500",
-    "rating_img": "/assets/images/Four-star.svg",
+    "rating_img": "/assets/images/Four-Star.svg",
     "category": "Product Set",
     "review": "(145 Reviews)",
     "stock": "Stock  Out"
@@ -44,7 +44,7 @@
     "review_h3": "Kids Electric Car",
     "images": "/assets/images/Toy_Car.png",
     "price": "$360",
-    "rating_img": "/assets/images/Four-star.svg",
+    "rating_img": "/assets/images/Four-Star.svg",
     "category": "Kids Car",
     "review": "(65 Reviews)",
     "stock": "In stock"
@@ -84,7 +84,7 @@
     "review_h3": "HAVIT HV-G92 Gamepad",
     "images": "/assets/images/Gamepad_og.png",
     "price": "$120",
-    "rating_img": "/assets/images/Five-star.svg",
+    "rating_img": "/assets/images/Five-Star.svg",
     "category": "Gamepad",
     "review": "(88 Reviews)",
     "stock": "Stock  Out"
@@ -94,7 +94,7 @@
     "review_h3": "AK-900 Wired Keyboard",
     "images": "/assets/images/Kb.png",
     "price": "$960",
-    "rating_img": "/assets/images/Four-star.svg",
+    "rating_img": "/assets/images/Four-Star.svg",
     "category": "KeyBoard",
     "review": "(75 Reviews)",
     "stock": "In stock"
@@ -124,7 +124,7 @@
     "review_h3": "Breed Dry Dog Food",
     "images": "/assets/images/BreedDog.jpg",
     "price": "$100",
-    "rating_img": "/assets/images/Three-star.svg",
+    "rating_img": "/assets/images/Three-Star.svg",
     "category": "PetFood",
     "review": "(35 Reviews)",
     "stock": "In stock"
@@ -134,7 +134,7 @@
     "review_h3": "CANON EOS DSLR Camera",
     "images": "/assets/images/Camera.png",
     "price": "$360",
-    "rating_img": "/assets/images/Four-star.svg",
+    "rating_img": "/assets/images/Four-Star.svg",
     "category": "Camera",
     "review": "(180 Reviews)",
     "stock": "In stock"
@@ -154,7 +154,7 @@
     "review_h3": "Curology Product Set",
     "images": "/assets/images/Cream.jpg",
     "price": "$500",
-    "rating_img": "/assets/images/Four-star.svg",
+    "rating_img": "/assets/images/Four-Star.svg",
     "category": "Product Set",
     "review": "(145 Reviews)",
     "stock": "Stock  Out"
@@ -164,7 +164,7 @@
     "review_h3": "Kids Electric Car",
     "images": "/assets/images/Toy_Car.png",
     "price": "$360",
-    "rating_img": "/assets/images/Four-star.svg",
+    "rating_img": "/assets/images/Four-Star.svg",
     "category": "Kids Car",
     "review": "(65 Reviews)",
     "stock": "In stock"
