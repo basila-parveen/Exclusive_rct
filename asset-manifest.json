@@ -1,10 +1,8 @@
 {
   "files": {
-    "main.css": "/Exclusive_rct/static/css/main.55cdcd2d.css",
-    "main.js": "/Exclusive_rct/static/js/main.0407e15d.js",
+    "main.css": "/Exclusive_rct/static/css/main.a1860e8a.css",
+    "main.js": "/Exclusive_rct/static/js/main.132c3bef.js",
     "static/media/phone.png": "/Exclusive_rct/static/media/phone.f22f594a220f4e9adc42.png",
-    "static/media/image 63.png": "/Exclusive_rct/static/media/image 63.80fed66b0ee2e546efaf.png",
-    "static/media/Four Star.svg": "/Exclusive_rct/static/media/Four Star.072934364287f36f8396c4093c00d16c.svg",
     "static/media/Vector (5).svg": "/Exclusive_rct/static/media/Vector (5).0a153f5b8adf45329beca1d42dda0da7.svg",
     "static/media/Icon-secure.svg": "/Exclusive_rct/static/media/Icon-secure.bde9a0470cdd0ae3342c34c093a3ed52.svg",
     "static/media/icon-delivery.svg": "/Exclusive_rct/static/media/icon-delivery.0dec29a3122e75030583ee62bf4b1d43.svg",
@@ -21,11 +19,11 @@
     "static/media/wishlist.svg": "/Exclusive_rct/static/media/wishlist.3e6cf96241e77527df463bead7754f02.svg",
     "static/media/Icon-Facebook.svg": "/Exclusive_rct/static/media/Icon-Facebook.90636f60afb9f3e2e04d8c82e843c216.svg",
     "static/media/arrow.svg": "/Exclusive_rct/static/media/arrow.94daeaf57b1c315d2c8df91398237554.svg",
-    "main.55cdcd2d.css.map": "/Exclusive_rct/static/css/main.55cdcd2d.css.map",
-    "main.0407e15d.js.map": "/Exclusive_rct/static/js/main.0407e15d.js.map"
+    "main.a1860e8a.css.map": "/Exclusive_rct/static/css/main.a1860e8a.css.map",
+    "main.132c3bef.js.map": "/Exclusive_rct/static/js/main.132c3bef.js.map"
   },
   "entrypoints": [
-    "static/css/main.55cdcd2d.css",
-    "static/js/main.0407e15d.js"
+    "static/css/main.a1860e8a.css",
+    "static/js/main.132c3bef.js"
   ]
 }
