@@ -47,7 +47,7 @@ function Reewritten() {
   return (
     <div>
       <Helmet>
-        <title>Exclusive</title>
+        <title>EXCLUSIVE</title>
         <link rel="icon" type="image/png" href="/favicon.ico" />
       </Helmet>
       <div className="rightpage">
