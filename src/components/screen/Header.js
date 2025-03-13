@@ -1,4 +1,5 @@
 import React, { useState, useContext } from "react";
+
 import styled from "styled-components";
 import { SearchContext } from "../context/Context";
 import "./Products.css";
@@ -37,16 +38,37 @@ function Header() {
 
       <div className="wrapper1">
         <div className="navbar_second">
-          <h1 className="logo">Exclusive</h1>
+          <h1 className="logo">
+            <a href="/" style={{ color: " #000000" }}>
+              Exclusive
+            </a>
+          </h1>
           <input name="origin" type="checkbox" id="check" />
           <label for="check" className="checkbtn">
             <i className="fa-solid fa-bars" id="bars"></i>
           </label>
           <ul className="unordered_list1">
-            <li className="list1 first_list">Home</li>
-            <li className="list1">Contact</li>
-            <li className="list1">About</li>
-            <li className="list1">Sign Up</li>
+            <li className="list1 first_list">
+              <a href="/" style={{ color: " #000000" }}>
+                Home
+              </a>
+            </li>
+            <li className="list1">
+              {" "}
+              <a href="/" style={{ color: " #000000" }}>
+                Contact
+              </a>
+            </li>
+            <li className="list1">
+              <a href="/" style={{ color: " #000000" }}>
+                About
+              </a>
+            </li>
+            <li className="list1">
+              <a href="/" style={{ color: " #000000" }}>
+                Sign Up
+              </a>
+            </li>
           </ul>
           <ul className="header_right">
             <li className="search">

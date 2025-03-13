@@ -8,6 +8,7 @@ a {
 .wrapper2 {
   margin: 5% 90px;
 }
+
 .container1_contentbox {
   background-color: black;
   width: 100%;
@@ -117,6 +118,7 @@ a {
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  padding: 2px;
 }
 .rectangle {
   width: 20px;
@@ -136,7 +138,7 @@ a {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: repeat(2, 1fr);
-  grid-gap: 31px;
+  grid-gap: 28px;
   grid-row-gap: 60px;
 }
 .container3_content_box {
@@ -232,12 +234,11 @@ a {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
 }
 .allproducts {
   margin-top: 25px;
   width: 234px;
-  height: 56px;
+
   border-radius: 4px;
   background: #db4444;
   display: flex;
@@ -320,6 +321,7 @@ a {
   margin-top: 60px;
   display: flex;
   flex-direction: column;
+  gap: 15px;
 }
 .head {
   color: white;
@@ -428,6 +430,13 @@ a {
 }
 .wrapper3 {
   margin: 0;
+}
+.gaming_img {
+  position: absolute;
+  top: 143px;
+  left: 127px;
+  width: 446px;
+  height: 315px;
 }
 @media (max-width: 1260px) {
   .container3_content_grid2 {
@@ -562,6 +571,11 @@ a {
 
   .checkbtn #bars {
     margin-top: 85px;
+  }
+}
+@media (max-width: 375px) {
+  .container3_content_box {
+    margin-left: -45px;
   }
 }
 @media (max-width: 366px) {

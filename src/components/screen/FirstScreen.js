@@ -8,6 +8,8 @@ import secure from "../../assets1/Icon-secure.svg";
 import { Link } from "react-router-dom";
 import { SearchContext } from "../context/Context";
 import axios from "axios";
+import { Helmet } from "react-helmet";
+import styled from "styled-components";
 
 function FirstScreen() {
   const { searchTerm } = useContext(SearchContext);
@@ -59,6 +61,10 @@ function FirstScreen() {
 
   return (
     <div>
+      <Helmet>
+        <title>EXCLUSIVE</title>
+        <link rel="icon" type="image/png" href="/favicon.ico" />
+      </Helmet>
       <div className="wrapper2">
         <div className="container1_contentbox">
           <div className="container1_content">
@@ -94,13 +100,14 @@ function FirstScreen() {
               {filteredProducts.map((product, index) => (
                 <div
                   className="container2_items"
+                  style={{ cursor: "pointer" }}
                   key={index}
                   onClick={() => setSelectedCategory(product.p)}
                 >
                   <img
                     src={`${process.env.PUBLIC_URL}/${product.image}`}
                     alt={product.p}
-                    style={{ width: "100px", marginTop: "15px" }}
+                    style={{ width: "56px", marginTop: "15px" }}
                   />
                   <p>{product.p}</p>
                 </div>
@@ -116,98 +123,100 @@ function FirstScreen() {
               <div className="container3_content_grid">
                 {filteredSecondProducts.length > 0 ? (
                   filteredSecondProducts.map((product, index) => (
-                    <div className="contentbox_container3" key={index}>
-                      <div className="container3_content_box">
-                        <img
-                          src={`${process.env.PUBLIC_URL}${product.images}`}
-                          alt="img1"
-                        />
+                    <ProductLink to={`/product/${product.id}`}>
+                      <div className="contentbox_container3" key={index}>
+                        <div className="container3_content_box">
+                          <img
+                            src={`${process.env.PUBLIC_URL}${product.images}`}
+                            alt="img1"
+                          />
 
-                        <div className="addcart">
-                          <p>Add To Cart </p>
-                        </div>
-                        {product.isnew ? (
-                          <div className="container3_new">
-                            <h3>New</h3>{" "}
+                          <div className="addcart">
+                            <p>Add To Cart </p>
                           </div>
-                        ) : (
-                          ""
-                        )}
+                          {product.isnew ? (
+                            <div className="container3_new">
+                              <h3>New</h3>{" "}
+                            </div>
+                          ) : (
+                            ""
+                          )}
 
-                        <div className="wishlist">
-                          <img
-                            src={`${process.env.PUBLIC_URL}${product.wishlist_img1}`}
-                            alt="heart"
-                          />
-                          <img
-                            src={`${process.env.PUBLIC_URL}${product.wishlist_img2}`}
-                            alt="eye"
-                          />
+                          <div className="wishlist">
+                            <img
+                              src={`${process.env.PUBLIC_URL}${product.wishlist_img1}`}
+                              alt="heart"
+                            />
+                            <img
+                              src={`${process.env.PUBLIC_URL}${product.wishlist_img2}`}
+                              alt="eye"
+                            />
+                          </div>
                         </div>
-                      </div>
 
-                      <div className="review">
-                        <h3>{product.review_h3}</h3>
-                        <div className="rating">
-                          <p className="money">{product.rating_p1}</p>
-                          <img
-                            src={`${process.env.PUBLIC_URL}${product.rating_img}`}
-                            alt="star"
-                          />
-                          <p className="ratingno">{product.rating_p2}</p>
+                        <div className="review">
+                          <h3>{product.review_h3}</h3>
+                          <div className="rating">
+                            <p className="money">{product.rating_p1}</p>
+                            <img
+                              src={`${process.env.PUBLIC_URL}${product.rating_img}`}
+                              alt="star"
+                            />
+                            <p className="ratingno">{product.rating_p2}</p>
+                          </div>
                         </div>
-                      </div>
 
-                      {product.colorvarient?.length > 0 && (
-                        <div
-                          className="colorcircle"
-                          style={{
-                            display: "flex",
-                            alignItems: "center",
-                            gap: "10px",
-                          }}
-                        >
-                          {product.colorvarient.map((color, index) =>
-                            color.first_circle ? (
-                              <div
-                                className="first_circle_border"
-                                style={{
-                                  width: "20px",
-                                  height: "20px",
-                                  border: "2px solid black",
-                                  borderRadius: "50%",
-                                  display: "flex",
-                                  alignItems: "center",
-                                  justifyContent: "center",
-                                  position: "relative",
-                                }}
-                                key={index}
-                              >
+                        {product.colorvarient?.length > 0 && (
+                          <div
+                            className="colorcircle"
+                            style={{
+                              display: "flex",
+                              alignItems: "center",
+                              gap: "10px",
+                            }}
+                          >
+                            {product.colorvarient.map((color, index) =>
+                              color.first_circle ? (
                                 <div
-                                  className="first_circle"
+                                  className="first_circle_border"
                                   style={{
-                                    width: "16px",
-                                    height: "16px",
-                                    backgroundColor: color.first_circle,
+                                    width: "20px",
+                                    height: "20px",
+                                    border: "2px solid black",
                                     borderRadius: "50%",
+                                    display: "flex",
+                                    alignItems: "center",
+                                    justifyContent: "center",
+                                    position: "relative",
+                                  }}
+                                  key={index}
+                                >
+                                  <div
+                                    className="first_circle"
+                                    style={{
+                                      width: "16px",
+                                      height: "16px",
+                                      backgroundColor: color.first_circle,
+                                      borderRadius: "50%",
+                                    }}
+                                  ></div>
+                                </div>
+                              ) : (
+                                <div
+                                  className="secnd_circle"
+                                  style={{
+                                    width: "20px",
+                                    height: "20px",
+                                    background: "#db4444",
+                                    borderRadius: " 50%",
                                   }}
                                 ></div>
-                              </div>
-                            ) : (
-                              <div
-                                className="secnd_circle"
-                                style={{
-                                  width: "20px",
-                                  height: "20px",
-                                  background: "#db4444",
-                                  borderRadius: " 50%",
-                                }}
-                              ></div>
-                            )
-                          )}
-                        </div>
-                      )}
-                    </div>
+                              )
+                            )}
+                          </div>
+                        )}
+                      </div>
+                    </ProductLink>
                   ))
                 ) : (
                   <p>No Match Item Found</p>
@@ -266,5 +275,10 @@ function FirstScreen() {
     </div>
   );
 }
+const ProductLink = styled(Link)`
+  display: block;
+  text-decoration: none;
+  color: inherit;
+`;
 
 export default FirstScreen;

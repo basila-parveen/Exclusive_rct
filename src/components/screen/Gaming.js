@@ -4,11 +4,14 @@ import "./Products.css";
 import axios from "axios";
 import Delivery from "../../assets1/icon-delivery (1).svg";
 import Return from "../../assets1/Icon-return.svg";
-import Mainimage from "../../assets1/image 63.png";
-import Fourstar from "../../assets1/Four Star.svg";
+import { useParams } from "react-router-dom";
+import { Helmet } from "react-helmet";
 
-function Gaming() {
+function Reewritten() {
+  const { productid } = useParams();
+
   const [dataproducts, setdataProducts] = useState([]);
+  const [products, setProducts] = useState([]);
 
   const { searchTerm } = useContext(SearchContext);
   useEffect(() => {
@@ -21,6 +24,20 @@ function Gaming() {
         console.error("Error fetching products:", error);
       });
   }, []);
+  useEffect(() => {
+    axios
+      .get(`${process.env.PUBLIC_URL}/data/DetailProducts.json`)
+      .then((response) => {
+        const selectProduct = response.data.find(
+          (productItem) => productItem.id === parseInt(productid)
+        );
+        setProducts(selectProduct);
+      })
+      .catch((error) => {
+        console.error("Error fetching products:", error);
+      });
+  }, [productid]);
+
   const filterProducts = (products) => {
     return products.filter((product) =>
       (product.review_h3 || "").toLowerCase().includes(searchTerm.toLowerCase())
@@ -29,12 +46,16 @@ function Gaming() {
   const filteredDataProducts = filterProducts(dataproducts);
   return (
     <div>
+      <Helmet>
+        <title>Exclusive</title>
+        <link rel="icon" type="image/png" href="/favicon.ico" />
+      </Helmet>
       <div className="rightpage">
         <div className="wrapper2">
-          <p className="one">Home</p>
-          <p className="one">/ Gaming &nbsp;</p>
-          <p>/Havic HV G-92 Gamepad</p>
-          <p></p>
+          <p className="one">Home /</p>
+          <p className="one">{products.category} /&nbsp;</p>
+
+          <h3 className="oneName">{products.review_h3}</h3>
         </div>
       </div>
       <div className="image_container">
@@ -53,18 +74,9 @@ function Gaming() {
                 position: "relative",
               }}
             >
-              <div
-                className="gaming_img"
-                style={{
-                  Width: "446px",
-                  Height: "315px",
-                  position: "absolute",
-                  top: "143px",
-                  left: "127px",
-                }}
-              >
+              <div className="gaming_img">
                 <img
-                  src={Mainimage}
+                  src={`${process.env.PUBLIC_URL}${products.images}`}
                   alt="img"
                   style={{
                     maxWidth: "100%",
@@ -92,7 +104,7 @@ function Gaming() {
                   lineHeight: "24px",
                 }}
               >
-                Havic HV G-92 Gamepad
+                {products.review_h3}
               </h3>
               <div
                 className="review_description"
@@ -103,9 +115,9 @@ function Gaming() {
                   alignItems: "center",
                 }}
               >
-                <img src={Fourstar} />
-                <p className="one">(150 Reviews) &nbsp;&nbsp;| </p>
-                <p className="two">In Stock</p>
+                <img src={`${process.env.PUBLIC_URL}${products.rating_img}`} />
+                <p className="one">{products.review} &nbsp;&nbsp;| </p>
+                <p className="two">{products.stock}</p>
               </div>
               <h4
                 style={{
@@ -114,7 +126,7 @@ function Gaming() {
                   fontSize: "24px",
                 }}
               >
-                $192.00
+                {products.price}
               </h4>
               <p
                 className="gaming_para"
@@ -313,7 +325,10 @@ function Gaming() {
             >
               {filteredDataProducts.map((product, index) => (
                 <div className="contentbox_container3" key={index}>
-                  <div className="container3_content_box">
+                  <div
+                    className="container3_content_box"
+                    style={{ cursor: "pointer" }}
+                  >
                     <img
                       src={`${process.env.PUBLIC_URL}${product.images} `}
                       alt="img1"
@@ -396,4 +411,4 @@ function Gaming() {
   );
 }
 
-export default Gaming;
+export default Reewritten;

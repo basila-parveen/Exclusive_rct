@@ -152,6 +152,15 @@ hr {
 }
 .one {
   opacity: 50%;
+  font-family: "Poppins";
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+}
+.oneName {
+  font-family: "Poppins";
+  font-weight: 400;
+  font-size: 14px;
 }
 .container3_content_grid2 {
   display: grid;
@@ -431,6 +440,9 @@ hr {
   .gaming_img {
     margin-left: -120px;
   }
+  .rightpage {
+    margin-left: -90px;
+  }
 }
 
 @media (max-width: 455px) {
@@ -467,6 +479,11 @@ hr {
   }
   .review_description {
     gap: 0px !important;
+  }
+}
+@media (max-width: 376px) {
+  .one {
+    display: none;
   }
 }
 

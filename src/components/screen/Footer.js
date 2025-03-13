@@ -113,10 +113,20 @@ function Footer() {
                 </div>
               </div>
               <div className="SocialMedia">
-                <img src={Facebook}></img>
-                <img src={Twitter}></img>
-                <img src={Instagram}></img>
-                <img src={Linkedin}></img>
+                <a href="https://www.facebook.com/">
+                  <img src={Facebook} />
+                </a>
+
+                <a href="https://www.twitter.com/">
+                  <img src={Twitter} />
+                </a>
+                <a href="https://www.instagram.com/">
+                  {" "}
+                  <img src={Instagram} />
+                </a>
+                <a href="https://www.linkedin.com/">
+                  <img src={Linkedin} />
+                </a>
               </div>
             </div>
           </div>

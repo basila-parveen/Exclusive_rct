@@ -1,9 +1,10 @@
 import React, { useState, useEffect, useContext } from "react";
 import "./Products.css";
 import axios from "axios";
-import { useLocation, Link } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
 import { SearchContext } from "../context/Context";
 import styled from "styled-components";
+import { Helmet } from "react-helmet";
 
 function Products() {
   const { searchTerm } = useContext(SearchContext);
@@ -32,6 +33,10 @@ function Products() {
 
   return (
     <div>
+      <Helmet>
+        <title>EXCLUSIVE</title>
+        <link rel="icon" type="image/png" href="/favicon.ico" />
+      </Helmet>
       <div className="rightpage">
         <div className="wrapper2">
           <p className="one">Home</p>
@@ -43,7 +48,7 @@ function Products() {
           <div className="container3_content_grid2">
             {filteredDataProducts.length > 0 ? (
               filteredDataProducts.map((product, index) => (
-                <ProductLink to={`/product/gaming`}>
+                <ProductLink to={`/product/${product.id}`}>
                   <div className="contentbox_container3" key={index}>
                     <div className="container3_content_box">
                       <img

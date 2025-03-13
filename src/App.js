@@ -16,7 +16,7 @@ function App() {
         <Routes>
           <Route path="/" element={<FirstScreen />} />
           <Route path="/products" element={<Products />} />
-          <Route path="/product/:id" element={<Gaming />} />
+          <Route path="/product/:productid" element={<Gaming />} exact />
         </Routes>
         <Footer />
       </SearchProvider>
