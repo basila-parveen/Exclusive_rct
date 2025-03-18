@@ -49,23 +49,23 @@ function Header() {
           </label>
           <ul className="unordered_list1">
             <li className="list1 first_list">
-              <a href="/" style={{ color: " #000000" }}>
+              <a href="#" style={{ color: " #000000" }}>
                 Home
               </a>
             </li>
             <li className="list1">
               {" "}
-              <a href="/" style={{ color: " #000000" }}>
+              <a href="#" style={{ color: " #000000" }}>
                 Contact
               </a>
             </li>
             <li className="list1">
-              <a href="/" style={{ color: " #000000" }}>
+              <a href="#" style={{ color: " #000000" }}>
                 About
               </a>
             </li>
             <li className="list1">
-              <a href="/" style={{ color: " #000000" }}>
+              <a href="#" style={{ color: " #000000" }}>
                 Sign Up
               </a>
             </li>
