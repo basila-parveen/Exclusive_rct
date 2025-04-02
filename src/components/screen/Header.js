@@ -48,7 +48,7 @@ function Header() {
             <i className="fa-solid fa-bars" id="bars"></i>
           </label>
           <ul className="unordered_list1">
-            <li className="list1 first_list">
+            <li className="list1 ">
               <a href="#" style={{ color: " #000000" }}>
                 Home
               </a>

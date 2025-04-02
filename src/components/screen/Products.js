@@ -39,8 +39,10 @@ function Products() {
       </Helmet>
       <div className="rightpage">
         <div className="wrapper2">
-          <p className="one">Home</p>
-          <p>{location.pathname}</p>
+          <div className="datapdt" style={{ display: "flex" }}>
+            <p className="one">Home</p>
+            <p>{location.pathname}</p>
+          </div>
         </div>
       </div>
       <div className="container3">
