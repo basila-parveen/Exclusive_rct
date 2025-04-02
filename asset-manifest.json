@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Exclusive_rct/static/css/main.a1860e8a.css",
-    "main.js": "/Exclusive_rct/static/js/main.0835d64a.js",
+    "main.css": "/Exclusive_rct/static/css/main.7cba1ad3.css",
+    "main.js": "/Exclusive_rct/static/js/main.c6266d3a.js",
     "static/media/phone.png": "/Exclusive_rct/static/media/phone.f22f594a220f4e9adc42.png",
     "static/media/Vector (5).svg": "/Exclusive_rct/static/media/Vector (5).0a153f5b8adf45329beca1d42dda0da7.svg",
     "static/media/Icon-secure.svg": "/Exclusive_rct/static/media/Icon-secure.bde9a0470cdd0ae3342c34c093a3ed52.svg",
@@ -19,11 +19,11 @@
     "static/media/wishlist.svg": "/Exclusive_rct/static/media/wishlist.3e6cf96241e77527df463bead7754f02.svg",
     "static/media/Icon-Facebook.svg": "/Exclusive_rct/static/media/Icon-Facebook.90636f60afb9f3e2e04d8c82e843c216.svg",
     "static/media/arrow.svg": "/Exclusive_rct/static/media/arrow.94daeaf57b1c315d2c8df91398237554.svg",
-    "main.a1860e8a.css.map": "/Exclusive_rct/static/css/main.a1860e8a.css.map",
-    "main.0835d64a.js.map": "/Exclusive_rct/static/js/main.0835d64a.js.map"
+    "main.7cba1ad3.css.map": "/Exclusive_rct/static/css/main.7cba1ad3.css.map",
+    "main.c6266d3a.js.map": "/Exclusive_rct/static/js/main.c6266d3a.js.map"
   },
   "entrypoints": [
-    "static/css/main.a1860e8a.css",
-    "static/js/main.0835d64a.js"
+    "static/css/main.7cba1ad3.css",
+    "static/js/main.c6266d3a.js"
   ]
 }
